@@ -1,0 +1,35 @@
+<script setup lang="ts">
+</script>
+
+<template>
+  <v-app>
+    <v-app-bar>
+      <v-app-bar-title>
+        Mikael Snellman
+      </v-app-bar-title>
+
+      <router-link to="/">
+        <v-btn class="mx-2" elevation="2" rounded>
+          Home
+        </v-btn>
+      </router-link>
+      <router-link to="/about">
+        <v-btn class="mx-2" elevation="2" rounded>
+          About
+        </v-btn>
+      </router-link>
+      <router-link to="/contact">
+        <v-btn class="mr-4 ml-2" elevation="2" rounded>
+          Contact
+        </v-btn>
+      </router-link>
+    </v-app-bar>
+
+    <v-main>
+      <RouterView />
+    </v-main>
+  </v-app>
+</template>
+
+<style scoped>
+</style>
