@@ -23,7 +23,13 @@
     </v-app-bar>
 
     <v-main>
-      <RouterView />
+      <v-container>
+        <v-row justify="center">
+          <v-col cols="12" md="8">
+            <RouterView />
+          </v-col>
+        </v-row>
+      </v-container> 
     </v-main>
   </v-app>
 </template>
