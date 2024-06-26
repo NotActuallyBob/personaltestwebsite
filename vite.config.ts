@@ -10,4 +10,10 @@ export default defineConfig({
     }
   },
   plugins: [vue()],
+  preview: {
+    port: 3001
+  },
+  server: {
+    port: 3000
+  }
 })
