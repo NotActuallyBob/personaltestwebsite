@@ -5,14 +5,11 @@
   <v-app>
     <v-app-bar>
       <v-app-bar-title>
-        Mikael Snellman
+        <router-link to="/">
+          Mikael Snellman
+        </router-link>
       </v-app-bar-title>
 
-      <router-link to="/">
-        <v-btn class="mx-2" elevation="2" rounded>
-          Home
-        </v-btn>
-      </router-link>
       <router-link to="/about">
         <v-btn class="mx-2" elevation="2" rounded>
           About
