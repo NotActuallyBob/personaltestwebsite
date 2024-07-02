@@ -4,7 +4,7 @@ import WorkExperience from '@/components/WorkExperience.vue';
 
 <template>
     <WorkExperience
-        :companyName="'Trimble Finland Oy'"
+        :companyName="'Trimble Solutions Oy'"
         :companyLink="'https://www.trimble.com/'"
         :jobTitle="'Software Testing Trainee'"
         :start="'6/2024'"
