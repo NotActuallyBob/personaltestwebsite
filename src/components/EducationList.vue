@@ -13,6 +13,9 @@
             <div>
                 Course credits: 44/120
             </div>
+            <div>
+                GPA: 4.53
+            </div>
         </v-card-text>
     </v-card>
     <v-card class="my-4">
