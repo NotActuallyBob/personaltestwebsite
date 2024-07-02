@@ -19,7 +19,7 @@
         </v-card-text>
     </v-card>
     <v-card class="my-4">
-        <v-card-title>B.sc: Automation and Control Engineering, </v-card-title>
+        <v-card-title>B.sc: Automation and Control Engineering</v-card-title>
         <v-card-subtitle>
             <a target="_blank" :href="'https://www.aalto.fi/'">Aalto University</a> | 9/2019 - 9/2023
         </v-card-subtitle>

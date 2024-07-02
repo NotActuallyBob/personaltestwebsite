@@ -29,6 +29,15 @@ import WorkExperience from '@/components/WorkExperience.vue';
         :description="'I was part of the QA team developing and maintaining the internal testing framework. I mostly used C#, Vue, Javascript and the database was PostgreSQL. I gained experience in both manual testing of software and test automation. Additionally I developed a couple of tools in python to automate tasks for realease managment and I helped onboard a new Trainee to the team.'"
         :tags="['C#', 'Vue', 'Vuetify', 'PostgreSQL','Test Automation', 'Manual Testing', 'Python']">
     </WorkExperience>
+    <WorkExperience
+        :companyName="'Esbo Idrottsförening'"
+        :companyLink="'https://esboif.fi/'"
+        :jobTitle="'Coach'"
+        :start="'8/2016'"
+        :end="'6/2018'"
+        :description="'I coached gymnastics once a week for 7-12 year old children. The position included to plan a 1.5h session and guiding the children in the excerises.'"
+        :tags="['Leadership', 'Planning']">
+    </WorkExperience>
 </template>
 
 <style scoped>
