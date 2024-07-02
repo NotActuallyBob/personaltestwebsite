@@ -36,18 +36,21 @@ defineProps({
 </script>
 
 <template>
-    <v-card>
+    <v-card class="my-4">
         <v-card-title>{{ jobTitle }}</v-card-title>
-        <v-card-subtitle><a target="_blank" :href="companyLink">{{ companyName }}</a> | {{ start }}<span v-if="end"> - {{ end }}</span></v-card-subtitle>
+        <v-card-subtitle>
+            <a target="_blank" :href="companyLink">{{ companyName }}</a> | {{ start }}
+            <span v-if="end"> - {{ end }}</span>
+            <span v-else> -></span>
+        </v-card-subtitle>
 
         <v-card-text>
-            <v-chip v-for="tag in tags">
+            <v-chip v-for="tag in tags" class="mx-1">
                 {{ tag }}
             </v-chip>
             <div class="my-4">{{ description }}</div>
         </v-card-text>
     </v-card>
-
 </template>
 
 <style scoped>
