@@ -4,7 +4,7 @@
 
 <template>
     <v-card class="my-4">
-        <v-card-title>M.Sc: Cloud computing and Security</v-card-title>
+        <v-card-title>M.Sc: Computer Science</v-card-title>
         <v-card-subtitle>
             <a target="_blank" :href="'https://www.aalto.fi/'">Aalto University</a> | 9/2023 ->
         </v-card-subtitle>
@@ -15,6 +15,9 @@
             </div>
             <div>
                 GPA: 4.53
+            </div>
+            <div>
+                Study track: Secure systems
             </div>
         </v-card-text>
     </v-card>

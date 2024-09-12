@@ -14,10 +14,6 @@ defineProps({
         type: String,
         required: true
     },
-    description: {
-        type: String,
-        required: true
-    },
     start: {
         type: String,
         required: true
@@ -48,7 +44,9 @@ defineProps({
             <v-chip v-for="tag in tags" class="mx-1">
                 {{ tag }}
             </v-chip>
-            <div class="my-4">{{ description }}</div>
+            <div class="my-4">
+                <slot></slot>
+            </div>
         </v-card-text>
     </v-card>
 </template>
