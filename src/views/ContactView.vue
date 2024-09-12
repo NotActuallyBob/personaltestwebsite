@@ -4,12 +4,14 @@
 </script>
 
 <template>
-  <h1>Contact</h1>
+  <v-card>
+    <v-card-title style="font-size: 32px; font-weight: bold;">Contact</v-card-title>
 
-  <div class="mb-4">
-    Email: mkael.virkkunen@gmail.com
-  </div>
-  <v-btn
+      <v-card-text>
+        <div class="mb-4">
+          Email: mkael.virkkunen@gmail.com
+        </div>
+        <v-btn
           class="mx-2"
           href="https://www.linkedin.com/in/mikaelsnellman/"
           target="_blank"
@@ -27,6 +29,8 @@
           target="_blank"
           icon="mdi-instagram">
         </v-btn>
+      </v-card-text>
+    </v-card>
 </template>
 
 <style scoped>
