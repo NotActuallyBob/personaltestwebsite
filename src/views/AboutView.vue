@@ -7,7 +7,7 @@ import EducationList from '@/components/EducationList.vue';
 </script>
 
 <template>
-  <v-card class="mb-6">
+  <v-card class="mb-8">
     <v-card-title style="font-size: 32px; font-weight: bold;">Education</v-card-title>
     <v-card-text>
       <EducationList></EducationList>
