@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import ExperienceTag from '@/models/ExperienceTag';
+//import ExperienceTag from '@/models/ExperienceTag';
 
 defineProps({
     companyName: {
