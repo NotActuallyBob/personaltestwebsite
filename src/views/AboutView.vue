@@ -7,19 +7,11 @@ import EducationList from '@/components/EducationList.vue';
 </script>
 
 <template>
-  <v-card class="mb-8">
-    <v-card-title style="font-size: 32px; font-weight: bold;">Education</v-card-title>
-    <v-card-text>
-      <EducationList></EducationList>
-    </v-card-text>
-  </v-card>
+  <h1>Education</h1>
+  <EducationList></EducationList>
 
-  <v-card class="my-4">
-    <v-card-title style="font-size: 32px; font-weight: bold;">Work Experience</v-card-title>
-    <v-card-text>
-      <WorkExperienceList></WorkExperienceList>
-    </v-card-text>
-  </v-card>
+  <h1>Work Experience</h1>
+  <WorkExperienceList></WorkExperienceList>
 </template>
 
 <style scoped>
