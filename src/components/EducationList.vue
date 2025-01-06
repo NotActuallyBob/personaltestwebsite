@@ -6,15 +6,15 @@
     <v-card class="my-4">
         <v-card-title>M.Sc: Computer Science</v-card-title>
         <v-card-subtitle>
-            <a target="_blank" :href="'https://www.aalto.fi/'">Aalto University</a> | 9/2023 ->
+            <a target="_blank" :href="'https://www.aalto.fi/'">Aalto University</a> | 9/2023 - 12/2025
         </v-card-subtitle>
 
         <v-card-text>
             <div>
-                Course credits: 44/120
+                Course credits: 64/120
             </div>
             <div>
-                GPA: 4.53
+                GPA: 4.69
             </div>
             <div>
                 Study track: Secure systems
