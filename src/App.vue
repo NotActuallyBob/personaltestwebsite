@@ -15,6 +15,11 @@
           About
         </v-btn>
       </router-link>
+      <router-link to="/projects">
+        <v-btn class="mr-4 ml-2" elevation="2" rounded>
+          Projects
+        </v-btn>
+      </router-link>
       <router-link to="/contact">
         <v-btn class="mr-4 ml-2" elevation="2" rounded>
           Contact
