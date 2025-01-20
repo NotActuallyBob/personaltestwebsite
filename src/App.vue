@@ -59,6 +59,12 @@ const drawer = ref(false);
         </v-row>
       </v-container>
     </v-main>
+
+    <v-footer class="bg-grey" height="25" style="display: flex; justify-content: center;">
+      <div>
+        {{ new Date().getFullYear() }} — <strong>Mikael Snellman</strong>
+      </div>
+    </v-footer>
   </v-app>
 </template>
 
