@@ -7,7 +7,7 @@
   <h1>Contact</h1>
 
   <div class="mb-4">
-    Email: mkael.virkkunen@gmail.com
+    Email: mikael.h.snellman@gmail.com
   </div>
   <v-btn
           class="mx-2"
