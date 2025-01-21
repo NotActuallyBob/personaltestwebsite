@@ -1,5 +1,5 @@
 <script setup lang="ts">
-
+import emailImage from "@/assets/email.png";
 
 </script>
 
@@ -7,7 +7,7 @@
   <h1>Contact</h1>
 
   <div class="mb-4">
-    Email: mikael.h.snellman@gmail.com
+    <img class="my-4" :src="emailImage">
   </div>
   <v-btn
           class="mx-2"

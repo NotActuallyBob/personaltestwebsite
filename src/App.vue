@@ -50,7 +50,7 @@ const drawer = ref(false);
       </v-list>
     </v-navigation-drawer>
 
-    <v-main>
+    <v-main class="app-main">
       <v-container>
         <v-row justify="center">
           <v-col cols="12" md="8">
@@ -69,4 +69,7 @@ const drawer = ref(false);
 </template>
 
 <style scoped>
+.app-main {
+  min-height: calc(100vh - 25px); /* 100vh - footer height */
+}
 </style>
