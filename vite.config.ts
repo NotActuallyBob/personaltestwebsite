@@ -14,6 +14,7 @@ export default defineConfig({
     port: 3001
   },
   server: {
+    allowedHosts: ["mikael.snellman.me"],
     port: 3001,
     host: true
   }
