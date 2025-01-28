@@ -2,6 +2,7 @@
 import { ref } from 'vue';
 
 const drawer = ref(false);
+const version = APP_VERSION;
 </script>
 
 <template>
@@ -62,7 +63,7 @@ const drawer = ref(false);
 
     <v-footer class="bg-grey" height="25" style="display: flex; justify-content: center;">
       <div>
-        {{ new Date().getFullYear() }} — <strong>Mikael Snellman</strong>
+        {{ new Date().getFullYear() }} - <strong>Mikael Snellman</strong> - v{{ version }}
       </div>
     </v-footer>
   </v-app>
