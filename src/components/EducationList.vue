@@ -11,10 +11,10 @@
 
         <v-card-text>
             <div>
-                Course credits: 79/120
+                Course credits: 85/120
             </div>
             <div>
-                GPA: 4.62
+                GPA: 4.42
             </div>
             <div>
                 Study track: Secure systems
