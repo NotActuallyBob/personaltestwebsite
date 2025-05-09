@@ -17,7 +17,7 @@
                 GPA: 4.39
             </div>
             <div>
-                Study track: Secure systems. Planning on writing Master's thesis during 2025 autumn
+                Study track: Secure systems. Planning on writing Master's thesis 2025 autumn.
             </div>
         </v-card-text>
     </v-card>
